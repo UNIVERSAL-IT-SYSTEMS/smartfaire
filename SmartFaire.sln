@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Follow", "Follow\Follow.vcxproj", "{32128C26-79BF-498A-B1B4-8BB0A39FE06B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608} = {2199AB29-B4A3-4F5E-9705-19647C4FE608}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartFaireLib", "SmartFaireLib\SmartFaireLib.vcxproj", "{2199AB29-B4A3-4F5E-9705-19647C4FE608}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Speed", "Speed\Speed.vcxproj", "{AD65D92B-017E-4DAE-8671-57F5768C3F50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608} = {2199AB29-B4A3-4F5E-9705-19647C4FE608}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartFaireController", "SmartFaireController\SmartFaireController.vcxproj", "{BD11F19C-03E8-4720-A660-343611F3350E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B} = {32128C26-79BF-498A-B1B4-8BB0A39FE06B}
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608} = {2199AB29-B4A3-4F5E-9705-19647C4FE608}
+		{AD65D92B-017E-4DAE-8671-57F5768C3F50} = {AD65D92B-017E-4DAE-8671-57F5768C3F50}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartFaireTestApp", "SmartFaireTestApp\SmartFaireTestApp.vcxproj", "{33EE1C0E-72EA-4B54-8507-92C48BF825ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B}.Debug|Win32.Build.0 = Debug|Win32
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B}.Debug|Win32.Deploy.0 = Debug|Win32
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B}.Release|Win32.ActiveCfg = Release|Win32
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B}.Release|Win32.Build.0 = Release|Win32
+		{32128C26-79BF-498A-B1B4-8BB0A39FE06B}.Release|Win32.Deploy.0 = Release|Win32
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608}.Debug|Win32.Build.0 = Debug|Win32
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608}.Debug|Win32.Deploy.0 = Debug|Win32
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608}.Release|Win32.ActiveCfg = Release|Win32
+		{2199AB29-B4A3-4F5E-9705-19647C4FE608}.Release|Win32.Build.0 = Release|Win32
+		{AD65D92B-017E-4DAE-8671-57F5768C3F50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD65D92B-017E-4DAE-8671-57F5768C3F50}.Debug|Win32.Build.0 = Debug|Win32
+		{AD65D92B-017E-4DAE-8671-57F5768C3F50}.Debug|Win32.Deploy.0 = Debug|Win32
+		{AD65D92B-017E-4DAE-8671-57F5768C3F50}.Release|Win32.ActiveCfg = Release|Win32
+		{AD65D92B-017E-4DAE-8671-57F5768C3F50}.Release|Win32.Build.0 = Release|Win32
+		{BD11F19C-03E8-4720-A660-343611F3350E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD11F19C-03E8-4720-A660-343611F3350E}.Debug|Win32.Build.0 = Debug|Win32
+		{BD11F19C-03E8-4720-A660-343611F3350E}.Debug|Win32.Deploy.0 = Debug|Win32
+		{BD11F19C-03E8-4720-A660-343611F3350E}.Release|Win32.ActiveCfg = Release|Win32
+		{BD11F19C-03E8-4720-A660-343611F3350E}.Release|Win32.Build.0 = Release|Win32
+		{33EE1C0E-72EA-4B54-8507-92C48BF825ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33EE1C0E-72EA-4B54-8507-92C48BF825ED}.Debug|Win32.Build.0 = Debug|Win32
+		{33EE1C0E-72EA-4B54-8507-92C48BF825ED}.Debug|Win32.Deploy.0 = Debug|Win32
+		{33EE1C0E-72EA-4B54-8507-92C48BF825ED}.Release|Win32.ActiveCfg = Release|Win32
+		{33EE1C0E-72EA-4B54-8507-92C48BF825ED}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
